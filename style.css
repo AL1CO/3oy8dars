@@ -155,7 +155,7 @@ p {
 }
 
 .sec2-right {
-  width: 540px;
+  max-width: 540px;
   height: 346px;
 }
 .sec2-right .box {
@@ -339,7 +339,7 @@ p {
   text-align: right;
   margin-top: 51px;
   color: rgba(255, 255, 255, 0.3764705882);
-  width: 255px;
+  max-width: 255px;
 }
 
 path {
@@ -429,7 +429,7 @@ path:hover {
   }
   .seaction-2 {
     display: block;
-    width: 573px;
+    max-width: 573px;
     margin-top: 0;
   }
   .sec2-left {
@@ -446,7 +446,7 @@ path:hover {
   .nVBTN {
     display: none;
   }
-  .nav-ul {
+  .ul-nav {
     display: none;
   }
   .nav-left {
@@ -487,6 +487,7 @@ path:hover {
   }
   .sec2-right {
     max-width: 327px;
+    margin: 0 auto;
   }
   .color2 {
     background-image: url("./image/color2-con.png");
@@ -503,5 +504,67 @@ path:hover {
   .color5 {
     background-image: url("./image/color5-con.png");
     height: 432px;
+  }
+  .col-5__text {
+    max-width: 327px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+  }
+  .seaction-2 {
+    max-width: 573px;
+  }
+  .col-sec4 {
+    display: block;
+    text-align: center;
+  }
+  .btn-end {
+    margin-top: 24px;
+  }
+  .chap {
+    display: block;
+    text-align: center;
+  }
+  .nav-ul {
+    justify-content: center;
+    margin-top: 24px;
+  }
+  .left2 {
+    text-align: center;
+    margin: 24px auto 0;
+  }
+  .ong {
+    display: block;
+  }
+  .ong .net {
+    margin: 24px auto;
+  }
+  .ong .title {
+    max-width: 255px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .box {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    max-width: 327px;
+  }
+  .color {
+    padding-top: 48px;
+  }
+  .color2 {
+    padding-top: 25px;
+  }
+  .color3 {
+    padding-top: 10px;
+  }
+  .seaction {
+    margin-top: 80px;
   }
 }/*# sourceMappingURL=style.css.map */
