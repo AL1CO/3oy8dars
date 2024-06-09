@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+  background-color: #f67e7e;
+}
+
+.con {
+  margin: 0 auto;
+  max-width: 1190px;
+  padding: 0 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.color {
+  height: 700px;
+  padding-top: 73px;
+  background-image: url("./image/color.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 390px;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  transition: 1s;
+  color: #ffffff;
+}
+.nav-a:hover {
+  color: #f67e7e;
+}
+
+.nav-btn {
+  width: 153px;
+  height: 48px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #ffffff;
+  transition: 1s;
+}
+.nav-btn:hover {
+  background-color: #ffffff;
+  color: #014e56;
+  border: 0;
+}
+
+.seaction-left {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #ffffff;
+  width: 621px;
+}
+
+p {
+  color: #f67e7e;
+}
+
+.line {
+  width: 50px;
+  height: 4px;
+  background-color: #79c8c7;
+}
+
+.seaction {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 129px;
+  position: relative;
+}
+
+.sec-p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 79px;
+}
+
+.seaction-right {
+  width: 445px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: -50%;
+  right: 0;
+}
+
+.left {
+  position: absolute;
+  left: -105px;
+}
+
+.color2 {
+  background-image: url("./image/color3.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 684px;
+  padding-top: 140px;
+}
+
+.seaction-2 {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec2-left {
+  width: 445px;
+  height: 144px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.sec2-right {
+  width: 540px;
+  height: 346px;
+}
+.sec2-right .box {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.sec2-right .text-b {
+  color: #f67e7e;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.sec2-right .text-p {
+  font-family: "Livvic", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 16px;
+  max-width: 445px;
+}
+
+.color3 {
+  background-image: url("./image/color5.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 745px;
+  padding-top: 140px;
+}
+
+.col-5__text {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  max-width: 940px;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  margin: 0 auto;
+}
+.col-5__text .p2 {
+  color: #c4fffe;
+  display: inline;
+}
+
+.sec3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-3-p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  position: relative;
+  z-index: 3;
+  margin-top: 36px;
+}
+
+.sec-3-n {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  color: #79c8c7;
+  margin-top: 24px;
+}
+
+.sec3-i {
+  font-family: "Livvic", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.boxes {
+  position: relative;
+  z-index: 2;
+  max-width: 350px;
+  padding: 5px;
+}
+
+.quote {
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 33.5px);
+}
+
+.color4 {
+  background-image: url("./image/qizil.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding: 84px 0;
+}
+
+.col-sec4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-end {
+  color: #012f34;
+  border: 2px solid #012f34;
+}
+.btn-end:hover {
+  background-color: #012f34;
+  color: #ffffff;
+  border: 2px solid transparent;
+}
+
+.color5 {
+  background-image: url("./image/end.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 196px;
+  padding-top: 48px;
+}
+
+.col4-left {
+  font-family: "Livvic", sans-serif;
+  color: #012f34;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.end-logotip {
+  margin-top: 25px;
+}
+
+.left2 {
+  width: 180px;
+}
+
+.chap {
+  display: flex;
+  gap: 125px;
+  align-items: center;
+  font-family: "Livvic", sans-serif;
+  color: rgba(255, 255, 255, 0.3764705882);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  max-width: 550px;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.net {
+  display: flex;
+  gap: 16px;
+  width: 104px;
+  margin-left: 151px;
+}
+
+.title {
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: right;
+  margin-top: 51px;
+  color: rgba(255, 255, 255, 0.3764705882);
+  width: 255px;
+}
+
+path {
+  fill: white;
+  transition: 1s;
+}
+path:hover {
+  fill: #f67e7e;
+}
+
+.net2 {
+  margin-left: 0;
+  margin-top: 10px;
+  display: none;
+}
+
+.burger {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .seaction {
+    flex-wrap: wrap;
+    margin: 129px auto 0;
+    justify-content: center;
+    text-align: center;
+  }
+  .end {
+    display: block;
+  }
+  .net {
+    margin-left: 0;
+  }
+  .ong {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px !important;
+    margin: 0 auto;
+  }
+  .title {
+    max-width: 1190px;
+    margin-top: 0;
+  }
+  .chap {
+    max-width: 1190px;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: right;
+  }
+  .sec3 {
+    display: block;
+  }
+  .bottom {
+    position: absolute;
+    bottom: -184px;
+    right: calc(50% - 129px);
+  }
+  .seaction-left {
+    font-family: "Livvic", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+  }
+  .line {
+    display: none;
+  }
+  .sec-p {
+    margin-top: 24px;
+  }
+  .color {
+    background-image: url("./image/color-2.png");
+  }
+  .color2 {
+    background-image: url("./image/color4.png");
+    height: 710px;
+  }
+  .color3 {
+    background-image: url("./image/colo3.png");
+    height: 1333px;
+  }
+  .boxes {
+    margin: 0 auto;
+  }
+  .seaction-2 {
+    display: block;
+    width: 573px;
+    margin-top: 0;
+  }
+  .sec2-left {
+    margin-bottom: 64px;
+  }
+  .color2 {
+    padding-top: 136px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .burger {
+    display: inline;
+  }
+  .nVBTN {
+    display: none;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .nav-left {
+    width: 100%;
+  }
+  .box {
+    display: block !important;
+    text-align: center;
+  }
+  .text-p {
+    text-align: center !important;
+  }
+  .seaction-left {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+  }
+  .sec-p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  .sec2-left {
+    font-family: Livvic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    max-width: 240px !important;
+  }
+  .text-box {
+    max-width: 327px;
+  }
+  .box {
+    max-width: 327px;
+  }
+  .sec2-right {
+    max-width: 327px;
+  }
+  .color2 {
+    background-image: url("./image/color2-con.png");
+    height: 1073px;
+  }
+  .color3 {
+    background-image: url("./image/color3-con.png");
+    height: 1410px;
+  }
+  .color4 {
+    background-image: url("./image/color4-con.png");
+    height: 302px;
+  }
+  .color5 {
+    background-image: url("./image/color5-con.png");
+    height: 432px;
+  }
+}/*# sourceMappingURL=style.css.map */
